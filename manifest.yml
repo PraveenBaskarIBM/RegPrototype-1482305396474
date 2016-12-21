@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: RegPrototype
+  host: RegPrototype
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-mr
+  - Compose for MongoDB-51
+  - availability-monitoring-auto
